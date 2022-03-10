@@ -1,6 +1,6 @@
 import math
 
-a = 150.0
+a = 41.8
 R = list()
 R_average = 0.0
 R_sigma = 0.0

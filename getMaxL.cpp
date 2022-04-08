@@ -12,7 +12,7 @@
 double getL(double theta)
 {
     double result;
-    result = v0*cos(theta)*((v0*sin(theta)/g)*(v0*sin(theta)/g) + 2*h/g);
+    result = v0*cos(theta)*(v0*sin(theta)/g + sqrt((v0*sin(theta)/g)*(v0*sin(theta)/g) + 2*h/g));
     return result;
 }
 
